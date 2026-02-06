@@ -1,4 +1,4 @@
-name: CI & Deploy Next.js to Pages
+name: CI Next.js
 
 on:
   push:
