@@ -1,3 +1,4 @@
+// app/layout.tsx
 import type { Metadata } from "next";
 import "./globals.css";
 import { atypFont, garamondFont, utsahaFont } from "../lib/fonts";
@@ -20,7 +21,7 @@ export default function RootLayout({
       <body
         className={`${atypFont.variable} ${garamondFont.variable} ${utsahaFont.variable} antialiased`}
       >
-        {children}
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
