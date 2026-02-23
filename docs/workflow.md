@@ -1,6 +1,6 @@
 # Identity Tokens — Project Workflow
 
-![Identity Workflow](./identity-workflow.svg)
+![Identity Workflow](./workflow.svg)
 
 ## Overview
 
